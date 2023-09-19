@@ -1,0 +1,33 @@
+version: '3.9'
+
+services:
+  python:
+    image: assignment3
+    platform: linux/x86_64
+    build: 
+      context: .
+      dockerfile: .Dockerfile
+    ports:
+      - 9001:80
+    volumes:
+      - ./code:/root/code  
+      - ./.vscode-server:/root/.vscode-server
+      - ./data:/root/data
+      - ./model:/root/code/model
+
+
+  mlflow:
+    command: mlflow server -h 0.0.0.0 --workers=8 --gunicorn-opts "--timeout 300"
+    image: assignment3-mlflow
+    platform: linux/x86_64
+    build:
+      context: .
+      dockerfile: mlflow.Dockerfile
+    volumes:
+      - ./mlflow:/mlflow
+    ports:
+      - 5000:5000
+    
+    
+
+    
