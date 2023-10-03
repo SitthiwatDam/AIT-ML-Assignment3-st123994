@@ -28,4 +28,4 @@
    - 'assignment3-mlflow' for 'docker-compose_arch.yaml', select 'open in browser' to open the mlflow ml2023
 6. For the 'docker-compose_arch.yaml, execute the 'main.py' file in folder 'code' to run the local website.
 7. Install extensions that VScode suggests.
-8. Enjoy your prediction and Website! 
+8. Enjoy your prediction and Website!  
