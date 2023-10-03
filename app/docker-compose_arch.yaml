@@ -11,9 +11,11 @@ services:
       - 9001:80
     volumes:
       - ./code:/root/code  
-      - ./.vscode-server:/root/.vscode-server
+      - vscode-server:/root/.vscode-server
       - ./data:/root/data
       - ./model:/root/code/model
+    env_file:
+      - .env
 
 
   mlflow:
@@ -28,6 +30,7 @@ services:
     ports:
       - 5000:5000
     
-    
+volumes:
+  vscode-server:
 
     
