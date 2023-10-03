@@ -1,2 +1,4 @@
 /app/.vscode-server
 /app/mlflow
+
+./.env
