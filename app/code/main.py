@@ -85,13 +85,13 @@ intro_layout=  html.Div([
     html.Br(),
     html.Br(),
     html.Div([
-        html.Label( "Welcome to Chacky Company Co., Ltd. We are the carmaker but we do not know how to set the car prices. \
+        html.Label( "Welcome to Chacky Company Co., Ltd. We are the carmaker and we do not know how to set the car prices. \
                So we came up with the idea of hiring the outsource which is a master's degree student to create the prediction machine learning model.   \
                The past machine learning models are linear regression and linear regression from scratch, the results are satisfied for the regression problems. \
                But, we are not done yet. We want to deal with classification problems that lead to a load of work for that student.", style={'textAlign': 'justify', 'fontSize': 20,"font-weight": "200"}),
         html.Br(),
         html.Br(),
-        html.Label( "Recently, our company launched a new prediction website that helps the company define their car prices in 4 categories: 'Low price', 'Good price', 'Great price', and 'Expensive price'. The predicted model is based on the Logistic Regression integrated with the Ridge regularization. \
+        html.Label( "From the dedication of that student, our company can finally launch a new prediction model that helps the company define or set the car prices in 4 categories: 'Low price', 'Good price', 'Great price', and 'Expensive price'. The predicted model is based on the Logistic Regression integrated with the Ridge Regression. \
                 The model have 72.4 percent accuracy with hyperparameters as follows: Normal regularization, method=batch, alpha=0.001, and max_iter=10000. ", style={'textAlign': 'justify', 'fontSize': 20,"font-weight": "200"}),
         html.Br(),
         html.Br(),

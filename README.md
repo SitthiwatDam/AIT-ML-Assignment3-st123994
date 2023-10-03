@@ -7,21 +7,19 @@
 #### Required applications:
 1. Visual Studio Code (VScode)
 2. Docker Desktop
-3. GitHub Desktop
    
 #### Required VScode extensions:
 1. JupyterNoteBook
 2. Python
 3. Docker
-4. GitHub action
-5. Remote Development packages (optional)
-6. Dev Containers (optional)
+4. Remote Development packages (optional)
+5. Dev Containers (optional)
 
 #### How to use:
 1. Download or gitclone this repository.
 2. Open your Docker Desktop for building images and composing.
 3. Get into the folder 'app' and check the Docker files (.Dockerfile for python, mlflow.Dockerfile for Mlflow).
-   - directly run option: user can compose up all of docker-compose.ymal files [see 4. to check the fucntion of each docker-compose file]
+   - directly run option: user can compose up the docker-compose.ymal files [see 4. to check the funtionality of each docker-compose file]
 4. After building, to operate only local website, compose up the 'docker-compose.yaml' .
    -  To operated the 'assignment3.ipynb' and local website, compose up the file 'docker-compose_arch.yaml' (move file into './app/code' first). 
    - 'docker-compose-deploy.yaml' is the outline for deploying a docker compose in ml2023 server.
