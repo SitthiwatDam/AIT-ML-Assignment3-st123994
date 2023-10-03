@@ -19,8 +19,6 @@ RUN pip3 install dash[testing]
 RUN pip3 install pytest
 RUN pip3 install pytest-depends
 
-# RUN pip install mlflow==2.6.0 cffi==1.15.1 defusedxml==0.7.1 matplotlib==3.7.2
-
 COPY ./code /root/code  
 
 CMD tail -f /dev/null

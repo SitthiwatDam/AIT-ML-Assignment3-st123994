@@ -1,4 +1,5 @@
 /app/.vscode-server
 /app/mlflow
-
-/app/.env
+app/.env
+.env
+/app/code/mlruns
