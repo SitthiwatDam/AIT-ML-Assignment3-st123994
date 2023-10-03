@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  web:
+    image: sittiwat555/assignment3
+    build:
+      context: .
+      dockerfile: .Dockerfile
+    environment:
+      - HOST=0.0.0.0
+      - PORT=80
+    ports:
+      - 9001:80
+    volumes:
+      - ./code:/root/code
+    env_file:
+      - .env
+volumes:
+  vscode-server:

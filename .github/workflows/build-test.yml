@@ -52,7 +52,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           # Your image name
-          images: parunng/car_price_prediction
+          images: sittiwat555/car_price_prediction_a3
           tags: ${{ github.ref_name }}
       - name: Build and push
         uses: docker/build-push-action@v5
