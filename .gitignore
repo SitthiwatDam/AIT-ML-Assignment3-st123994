@@ -1,7 +1,6 @@
 /app/.vscode-server
 /app/mlflow
-app/.env
-.env
-
-app/code/mlruns
-app/code/mlruns/0
+/app/.env
+/app/code/mlruns
+/app/code/mlruns/0
+/app/code/a3_model.py
