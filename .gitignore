@@ -1,7 +1,7 @@
 /app/.vscode-server
 /app/mlflow
-/app/.env
+app\.env
 .env
-/app/code/mlruns
-/app/code/mlruns/0
-/app/code/__pycache__
+app\code\__pycache__
+app\code\mlruns
+app\code\mlruns\0
